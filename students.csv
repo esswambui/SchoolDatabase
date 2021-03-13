@@ -1,0 +1,4 @@
+Student_id,Student_Name,Student_Email, College_id,Date_joined, Major_taken,College_Level
+100,Mercy,mercy@gmail.com,208,2019-03-01,Mathematics,Masters
+101,Nick,nick@gmail.com,107,2020-04-01,Biiology,Bachelors
+102,Ella,ella@gmail.com,495,2018-05-01,Linguistics,PhD
