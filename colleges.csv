@@ -1,6 +1,6 @@
- College_id,  College_Name,   College_Address, College_city,College_country
-101,Nairobi University,2345-00100,Nairobi,Kenya
-107,Kenyatta University,3546-0100,Nairobi,Kenya
-208,Capetown University,354-2001,Cape Town,South Africa
-305,Mekelle University,2345-2000,Addis Ababa,Ethiopia
-495,Lagos University,124-1005,Lagos,Nigeria
+College_id,College_Name,College_Address,College_city,College_country
+101,Nairobi_University,2345,Nairobi,Kenya
+107,Kenyatta_University,3546,Nairobi,Kenya
+208,Capetown_University,354,CapeTown,SouthAfrica
+305,Mekelle_University,2345,AddisAbaba,Ethiopia
+495,Lagos_University,124,Lagos,Nigeria
