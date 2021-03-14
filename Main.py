@@ -71,3 +71,34 @@ with open('D:\SchoolDatabase\proffesors.csv', 'r') as profrec:
             "INSERT IGNORE INTO proffessor(teacher_id, Teacher_Name, teacher_Email, College_id, Date_joined, Speciality, Salary, Experience) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", rec)
         mydb.commit()
 print("Professor records added")
+
+#  Insert stuent records from csv file
+with open('D:\SchoolDatabase\students.csv', 'r') as srec:
+    s_reader = csv.reader(srec)
+
+    next(s_reader)  # dkip first ecord
+    for rec in s_reader:
+        mycursor.execute(
+            "INSERT IGNORE INTO student(Student_id, Student_Name, Student_Email, College_id, Date_joined, Major_taken, College_Level) VALUES (%s, %s, %s, %s, %s, %s, %s)", rec)
+        mydb.commit()
+print("Student records added")
+
+# Function to join the three tables
+
+
+def acadenia():
+    mycursor.execute(
+        "SELECT * FROM student INNER JOIN college \
+         ON college.College_id = student.College_id\
+         INNER JOIN proffessor ON college.College_id = proffessor.College_id ")
+
+    print(" \n\t\t\t\t School Records ")
+    print("______________________________________________________________________________\n")
+    for j in mycursor.fetchall():
+        print(j)
+
+
+acadenia()
+
+mycursor.close()
+print('\n Bye')

@@ -1,4 +1,11 @@
   teacher_id,    Teacher_Name,teacher_Email, College_id,Date_joined,Speciality, Salary,Experience
 1,Margaret,maggy@gmail.com,107,2010-01-05,Biology,50000,15
 2,Carlo,carlo@yahoo.com,305,2017-02-13,Linguistics,30000,10
-3,Lota,lota@gmail.com,495,2014-01-04,Statistics,50000,11
+3,Lota,lota@gmail.com,495,2014-01-04,Mathematics,50000,11
+4,Julius,julius@yahoo.com,107,2015-05-12,Linguistics,30000,5
+5,Chiki,chiki@yahoo.cpm,495,2020-01-03,Sociology,20000,2
+6,Nancy,nancy@yahoo.com,208,2018-02-04,Mathematics,40000,7
+7,Hassan,hassan@gmail.con,305,2019-04-01,Sociology,30000,10
+8,Nicholus,nick@gmail.com,101,2018-03-21,Linguistics,50000,16
+9,Assrat,assrat@yahooo.co.uk,305,2012-03-07,Biology,40000,9
+10,Michelle,mich@gmail.com,495,2013-04-01,Mathematics,40000,5
