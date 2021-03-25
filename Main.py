@@ -5,7 +5,7 @@ import csv
 mydb = conn.connect(
     host="localhost",
     user="root",
-    password="newlight",
+    password= "",
     database="Academics"
 )
 print("Hi")
